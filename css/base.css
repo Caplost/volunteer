@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size:12px;
+	margin:0 auto;
+}
+a, a:link, a:visited{
+	color:#ffffff;
+	text-decoration:none;
+}
+a:hover{
+	color:orange;
+	text-decoration:underline;
+}
+h3{color:green; font-size:21px; font-weight:700; padding:100px 0 30px 0; margin:0;}
+#regis{
+	background:url(../images/bg3.jpg) no-repeat scroll center transparent;
+	width:916px;
+	margin:0 auto;
+	height:130px;
+	text-align:center;
+}
+#globallink{
+	height:30px;
+	bottom:0;
+	width:906px;
+	padding:100px 0 0 0;	
+}
+#regis ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+	
+}
+#regis ul li{
+	float:left;
+	padding:5px 10px;	
+}
+.first{
+	margin:0 0 0 20px;
+}
+#success{
+	width:910px;
+	margin:0 auto;
+	height:500px;
+	text-align:center;
+	background-color:#fff;
+}
+#page404{
+	width:916px;
+	margin:0 auto;
+	height:500px;
+	text-align:center;
+	padding:0;
+}
+.userbox{
+	text-align:left;
+	margin:0 auto;  
+	font-size:16px;
+	padding:10px 0 0 400px;;
+}
+#footer{
+	clear:both;
+	width:916px;
+	height:100px;
+	margin:0 auto;
+	text-align:center;
+	padding:30px 0 0 0;
+	color:#fff;
+}

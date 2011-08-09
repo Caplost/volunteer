@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} !^www\.url.com$ [NC]
+#RewriteRule ^(.*)$ http://www.url.com/$1 [R=301,L]
+
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(robots\.txt|sitemap\.xml)
+
+# otherwise forward it to index.php
+RewriteRule . index.php
