@@ -133,6 +133,8 @@ class Category extends CActiveRecord {
                     }else{
                         $section = $model->category_name.' '.$modelTh->category_name;
                     }
+                }else{
+                    $section = $modelTh->category_name;
                 }
             } 
         }

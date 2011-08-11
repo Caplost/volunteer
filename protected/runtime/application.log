@@ -4943,3 +4943,1486 @@ Stack trace:
 #1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
 #2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
 #3 {main} REQUEST_URI=/favicon.ico
+2011/08/10 07:52:56 [error] [php] include(User.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\volunteer\framework\YiiBase.php:338)
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php(31): spl_autoload_call()
+#1 E:\xampp\htdocs\volunteer\framework\web\actions\CInlineAction.php(32): RegisterController->actionSet()
+#2 E:\xampp\htdocs\volunteer\framework\web\CController.php(300): CInlineAction->run()
+#3 E:\xampp\htdocs\volunteer\framework\web\CController.php(278): RegisterController->runAction()
+#4 E:\xampp\htdocs\volunteer\framework\web\CController.php(257): RegisterController->runActionWithFilters()
+#5 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(324): RegisterController->run()
+#6 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#7 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#8 E:\xampp\htdocs\volunteer\index.php(14): CWebApplication->run()
+REQUEST_URI=/register/set
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (31)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:23 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:23 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:23 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:23 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:23 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:27 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:27 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:27 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:27 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:27 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:28 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:28 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:28 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:28 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:28 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:29 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:29 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:29 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:29 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:29 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:31 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:31 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:31 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:31 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:31 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:32 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:32 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:32 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:32 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:32 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:38 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:38 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:38 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:38 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:38 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:39 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:39 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:39 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:39 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:39 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:41 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:41 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:41 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:41 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:41 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:45 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:45 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:45 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:45 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:45 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:50 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:50 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:50 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:50 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:50 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:50 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:50 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:50 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:50 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:50 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:51 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:51 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:51 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:51 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:51 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:51 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:51 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:51 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:51 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:55:51 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 07:58:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo1.png".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('images/logo1.pn...')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/images/logo1.png
+2011/08/10 07:58:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backspace/articles/admin".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('backspace/artic...')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/backspace/articles/admin?target=navTab
+2011/08/10 08:02:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backspace/articles/admin".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('backspace/artic...')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/backspace/articles/admin?target=navTab
+2011/08/10 08:02:50 [error] [php] require(E:\xampp\htdocs\volunteer\protected\modules\admin\AdminModule.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\volunteer\framework\YiiBase.php:257)
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\base\CModule.php(258): createComponent()
+#1 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(379): CWebApplication->getModule()
+#2 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(318): CWebApplication->createController()
+#3 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\volunteer\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/default/test/id/11
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 08:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "backspace/tmtype/admin".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('backspace/tmtyp...')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/backspace/tmtype/admin?target=navTab
+2011/08/10 08:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/10 08:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo1.png".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('images/logo1.pn...')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/images/logo1.png
+2011/08/10 08:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo1.png".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('images/logo1.pn...')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/images/logo1.png
+2011/08/10 08:22:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/10 08:36:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9ee49469/themes/purple/images/listLine.png".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('assets/9ee49469...')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/assets/9ee49469/themes/purple/images/listLine.png
+2011/08/10 09:44:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo1.png".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('images/logo1.pn...')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/images/logo1.png
+2011/08/10 09:44:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/10 09:55:30 [error] [php] require(E:\xampp\htdocs\volunteer\protected\modules\admin\AdminModule.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\volunteer\framework\YiiBase.php:257)
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\base\CModule.php(258): createComponent()
+#1 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(379): CWebApplication->getModule()
+#2 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(318): CWebApplication->createController()
+#3 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\volunteer\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/default/test/id/11
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/10 12:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/10 13:33:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 00:32:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 03:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 03:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 03:36:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 03:36:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 03:44:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 03:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 10:58:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 10:58:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 10:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 10:58:33 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 10:58:33 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 10:58:33 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 10:58:33 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 10:58:33 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 10:58:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 10:58:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 10:58:42 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 10:58:42 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 10:58:42 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 10:58:42 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 10:58:42 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 10:58:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:00:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:00:10 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:10 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:10 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:10 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:10 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:00:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:00:17 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:17 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:17 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:17 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:17 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:00:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:00:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:00:47 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:47 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:47 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:47 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:47 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:01:17 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:01:17 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:01:17 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:01:17 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:01:17 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:16:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:16:58 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:16:58 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:16:58 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:16:58 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:16:58 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:06 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:06 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:06 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:06 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:06 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:07 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:07 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:07 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:07 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:07 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:08 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:08 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:08 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:08 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:08 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:09 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:09 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:09 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:09 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:09 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:10 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:10 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:10 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:10 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:10 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:11 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:11 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:11 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:11 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:11 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:12 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:12 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:12 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:12 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:12 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:13 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:13 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:13 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:13 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:13 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:14 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:14 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:14 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:14 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:14 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:15 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:15 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:15 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:15 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:15 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:17 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:17 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:17 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:17 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:17 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:19 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:19 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:19 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:19 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:19 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:20 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:20 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:20 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:20 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:20 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:17:31 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:31 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:31 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:31 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:31 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:33 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:33 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:33 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:33 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:33 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:36 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:36 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:36 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:36 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:17:36 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:18:54 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:18:54 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:18:54 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:18:54 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:18:54 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:20:51 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:20:51 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:20:51 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:20:51 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:20:51 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:11 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:11 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:11 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:11 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:11 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:13 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:13 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:13 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:13 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:13 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:14 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:14 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:14 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:14 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:14 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:16 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:16 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:16 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:16 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:16 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:17 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:17 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:17 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:17 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:17 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:23 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:23 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:23 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:23 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:23 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:26 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:26 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:26 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:26 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:21:26 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:26 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:26 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:26 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:26 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:26 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:33 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:33 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:33 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:33 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:33 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:33 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:33 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:33 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:33 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:33 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:59 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:59 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:59 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:59 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:23:59 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:28:03 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:03 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:03 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:03 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:03 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:06 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:06 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:06 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:06 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:06 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:15 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:15 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:15 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:15 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:15 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:16 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:16 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:16 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:16 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:16 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:17 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:17 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:17 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:17 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:17 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:18 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:18 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:18 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:18 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:18 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:22 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:22 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:22 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:22 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:22 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:24 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:24 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:24 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:24 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:24 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:26 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:26 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:26 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:26 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:26 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:27 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:27 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:27 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:27 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:27 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:32 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:32 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:32 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:32 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:32 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:38 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:38 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:38 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:38 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:38 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:43 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:43 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:43 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:43 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:43 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:30:30 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:30:30 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:30:30 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:30:30 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:30:30 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:30:35 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:30:35 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:30:35 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:30:35 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:30:35 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:31:43 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:31:43 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:31:43 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:31:43 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:31:43 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:00 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:00 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:00 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:00 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:00 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:09 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:09 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:09 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:09 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:09 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:09 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:09 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:09 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:09 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:09 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:10 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:10 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:10 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:10 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:32:10 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (47)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:42:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:49:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:50:06 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:50:06 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:50:06 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:50:06 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:50:06 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:50:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:50:59 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:50:59 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:50:59 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:50:59 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:50:59 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:50:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:51:13 [warning] [application] Failed to set unsafe attribute "user_profession".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:51:13 [warning] [application] Failed to set unsafe attribute "user_professional_qualification".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:51:13 [warning] [application] Failed to set unsafe attribute "user_hobby_speciality".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:51:13 [warning] [application] Failed to set unsafe attribute "user_service_experience".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:51:13 [warning] [application] Failed to set unsafe attribute "user_service_honour".
+in E:\xampp\htdocs\volunteer\protected\controllers\RegisterController.php (52)
+in E:\xampp\htdocs\volunteer\index.php (14)
+2011/08/11 11:51:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:51:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/08/11 11:51:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php:328
+Stack trace:
+#0 E:\xampp\htdocs\volunteer\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\volunteer\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\volunteer\index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico

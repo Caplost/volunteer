@@ -141,7 +141,7 @@
 <br />
 　　本办法自发布之日起生效，其修改、变更、解释权属于南京市志愿者工作指导中心。
 <br />
-                                                           <span style="float: right; margin:0 15px 10px 0;">南京市巾帼志愿者    </span>
+                                                           <span style="float: right; margin:0 15px 10px 0;">南京市志愿者协会    </span>
 <br />
 
  

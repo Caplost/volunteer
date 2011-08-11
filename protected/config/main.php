@@ -16,6 +16,7 @@ return array(
     // autoloading model and component classes
     'import' => array(
         'application.models.*',
+        'application.modules.backspace.models.*',
         'application.components.*',
         'ext.dwz.*',
     ),
@@ -108,6 +109,6 @@ return array(
         // this is used in contact page
         'adminEmail' => 'webmaster@example.com',
         'powered'=>'南京思亿欧有限公司',
-        'Allrights'=>'南京妇女联合会',
+        'Allrights'=>'南京市志愿者协会',
     ),
 );

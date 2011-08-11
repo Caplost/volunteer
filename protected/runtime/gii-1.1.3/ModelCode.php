@@ -2,6 +2,6 @@
 return array (
   'template' => 'default',
   'tablePrefix' => 'vol_',
-  'modelPath' => 'admin.models',
+  'modelPath' => 'backspace.models',
   'baseClass' => 'CActiveRecord',
 );

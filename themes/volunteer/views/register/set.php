@@ -93,7 +93,7 @@
                             </tr>
                             <tr bgcolor="#FFFFFF">
                                 <td bgcolor="#E1F5FF" >服务队名称<span style="color:red">*</span></td>
-                                <td colspan="3" align="left"><?php echo $form->textField($model, 'user_team', array('id' => 'userTeam', 'style' => "width:200px; border: none; border-bottom: 1px solid #000;")); ?> (<span style="color:red">注意</span>:请填写巾帼志愿服务队全称)<?php echo $form->error($model, 'user_team'); ?></td>
+                                <td colspan="3" align="left"><?php echo $form->textField($model, 'user_team', array('id' => 'userTeam', 'style' => "width:200px; border: none; border-bottom: 1px solid #000;")); ?> (<span style="color:red">注意</span>:请填写巾帼志愿服务队全称,如：方山巾帼志愿服务队)<?php echo $form->error($model, 'user_team'); ?></td>
                             </tr>
 
                             <tr bgcolor="#FFFFFF">
@@ -109,7 +109,7 @@
 
                             <tr bgcolor="#FFFFFF">
                                 <td bgcolor="#E1F5FF">出生日期<span style=color:red>*</span></td>
-                                <td align="left"><?php echo $form->textField($model, 'user_birthdate', array('id' => 'EntTime', 'onclick' => "return showCalendar('EntTime', 'y-mm-dd');")); ?><span >(<span style="color:green">按住箭头选择</span>)</span> <?php echo $form->error($model, 'user_birthdate'); ?>  </td>
+                                <td align="left"><?php echo $form->textField($model, 'user_birthdate', array('id' => 'EntTime', 'onclick' => "return showCalendar('EntTime', 'y-mm');")); ?><span >(<span style="color:green">按住箭头选择</span> 日期格式：<span style="color:red">2011-8</span> )</span> <?php echo $form->error($model, 'user_birthdate'); ?>  </td>
                                 <td bgcolor="#E1F5FF">民&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;族<span style=color:red>*</span></td>
                                 <td align="left"><?php echo $form->dropDownList($model, 'user_nation', ItemLookup::getItem('nation', FALSE)); ?> <?php echo $form->error($model, 'user_nation'); ?></td>                                
                             </tr>
@@ -230,24 +230,31 @@
     $('#userTeam').click(function(){
         var subCategory;
         var thCategory;
+        var rootCategory;
         subCategory= document.getElementById('subCategory').value;
         thCategory = document.getElementById('thCategory').value;
+        rootCategory = document.getElementById('rootCategory').value;
         if(thCategory){
             document.getElementById('userCategory').value=thCategory;
         }else if(subCategory){
             document.getElementById('userCategory').value=subCategory;   
-        }
-               
+        }else if(rootCategory){
+            document.getElementById('userCategory').value=rootCategory;
+        }     
     });
     $('#userTeam').change(function(){
         var subCategory;
         var thCategory;
+        var rootCategory;
         subCategory= document.getElementById('subCategory').value;
         thCategory = document.getElementById('thCategory').value;
+        rootCategory = document.getElementById('rootCategory').value;
         if(thCategory){
             document.getElementById('userCategory').value=thCategory;
         }else if(subCategory){
             document.getElementById('userCategory').value=subCategory;   
+        }else if(rootCategory){
+            document.getElementById('userCategory').value=rootCategory;
         }        
     });
      
